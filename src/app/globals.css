@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-card-bg: var(--card-bg);
+  --color-accent: var(--accent);
+}
+
+:root {
+  --background: #f1f5f9; /* Slate 100 - slightly darker so white cards stand out beautifully */
+  --foreground: #0f172a; /* Slate 900 - high contrast primary text */
+  --primary: #6366f1; /* Indigo 500 */
+  --primary-hover: #4f46e5; /* Indigo 600 */
+  --secondary: #0f172a;
+  --muted: #334155; /* Slate 700 - high contrast secondary text (WCAG AA Compliant) */
+  --border: #cbd5e1; /* Slate 300 - clearly visible borders for cards and sections */
+  --card-bg: #ffffff; /* Pure white cards stand out against slate-100 background */
+  --accent: #0d9488; /* Teal 600 */
+  
+  --font-sans: 'Outfit', var(--font-geist-sans), sans-serif;
+}
+
+.dark {
+  --background: #020617; /* Slate 950 - deep rich black */
+  --foreground: #f8fafc; /* Slate 50 - bright white primary text */
+  --primary: #10b981; /* Emerald 500 */
+  --primary-hover: #059669; /* Emerald 600 */
+  --secondary: #f8fafc;
+  --muted: #94a3b8; /* Slate 400 - bright slate for high readability on dark card backdrops */
+  --border: #1e293b; /* Slate 800 - crisp border separator in dark mode */
+  --card-bg: #0b1329; /* Deep navy card bg - distinct contrast against black background */
+  --accent: #22d3ee; /* Cyan 400 */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-x: hidden;
+}
+
+/* Custom Utilities for Premium Visuals */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(203, 213, 225, 0.7);
+}
+
+.dark .glass {
+  background: rgba(11, 19, 41, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(30, 41, 59, 0.7);
+}
+
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+}
+
+.glow-effect {
+  position: relative;
+}
+
+.glow-effect::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 25px var(--primary);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.glow-effect:hover::after {
+  opacity: 0.15;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
