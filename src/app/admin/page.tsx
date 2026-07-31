@@ -89,11 +89,16 @@ export default function AdminDashboard() {
   };
 
   const serviceLabels: Record<string, string> = {
-    "web-dev": "Website Development",
-    "ecommerce-dev": "E-Commerce Setup",
-    "seo-services": "Affordable SEO",
-    "mern-stack": "MERN Stack Dev",
-    "ui-ux": "UI/UX Figma Design",
+    "web-maint-dev": "Web Maintenance & Dev",
+    "ai-ml-dev": "AI & ML Development",
+    "ui-ux-design": "UI/UX Design",
+    "video-photo-edit": "Video & Photo Editing",
+    "web-security": "Web Security",
+    "three-d-websites": "3D Websites",
+    "complex-ai-ml": "Complex AI/ML Models",
+    "digital-marketing": "Digital Marketing",
+    "projects-completion": "Projects Completion",
+    "research-paper": "Research Paper Writing",
   };
 
   return (

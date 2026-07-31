@@ -11,7 +11,7 @@ export default function LeadForm({ defaultService = "" }: { defaultService?: str
     email: "",
     phone: "",
     businessName: "",
-    service: defaultService || "web-dev",
+    service: defaultService || "web-maint-dev",
     message: "",
   });
   
@@ -57,7 +57,7 @@ export default function LeadForm({ defaultService = "" }: { defaultService?: str
         email: "",
         phone: "",
         businessName: "",
-        service: "web-dev",
+        service: "web-maint-dev",
         message: "",
       });
 

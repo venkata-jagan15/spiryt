@@ -24,7 +24,7 @@ export default function Pricing() {
         "1 Month Bug Fix Support"
       ],
       cta: "Get Started Now",
-      srv: "web-dev",
+      srv: "web-maint-dev",
       popular: false
     },
     {
@@ -43,7 +43,7 @@ export default function Pricing() {
         "3 Months SLA Support Policy"
       ],
       cta: "Go Popular Choice",
-      srv: "ecommerce-dev",
+      srv: "ui-ux-design",
       popular: true
     },
     {
@@ -62,7 +62,7 @@ export default function Pricing() {
         "1 Year Dedicated Maintenance Support"
       ],
       cta: "Book Technical Call",
-      srv: "mern-stack",
+      srv: "ai-ml-dev",
       popular: false
     }
   ];

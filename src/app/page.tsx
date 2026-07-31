@@ -4,16 +4,23 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { 
-  Code, 
-  TrendingUp, 
-  ArrowRight, 
-  CheckCircle, 
-  Users, 
-  Sparkles, 
-  ChevronDown, 
-  MapPin, 
-  Layers, 
-  Cpu 
+  Wrench,
+  Brain,
+  Palette,
+  Film,
+  Shield,
+  Box,
+  Cpu,
+  TrendingUp,
+  CheckSquare,
+  FileText,
+  ArrowRight,
+  CheckCircle,
+  Users,
+  Sparkles,
+  ChevronDown,
+  MapPin,
+  Layers 
 } from "lucide-react";
 import { AGENCY_CONFIG } from "@/config/agency";
 import { PORTFOLIO_PROJECTS } from "@/data/portfolioData";
@@ -28,6 +35,23 @@ export default function Home() {
   
   // Take first 3 blogs for homepage
   const recentBlogs = BLOG_POSTS.slice(0, 3);
+
+  // Icon mapping helper
+  const getServiceIcon = (iconName: string) => {
+    switch (iconName) {
+      case "Wrench": return <Wrench size={22} />;
+      case "Brain": return <Brain size={22} />;
+      case "Palette": return <Palette size={22} />;
+      case "Film": return <Film size={22} />;
+      case "Shield": return <Shield size={22} />;
+      case "Box": return <Box size={22} />;
+      case "Cpu": return <Cpu size={22} />;
+      case "TrendingUp": return <TrendingUp size={22} />;
+      case "CheckSquare": return <CheckSquare size={22} />;
+      case "FileText": return <FileText size={22} />;
+      default: return <Wrench size={22} />;
+    }
+  };
 
   // Take top 5 FAQ items
   const homeFaqs = [
@@ -117,7 +141,7 @@ export default function Home() {
 
             {/* Hero Right Visual Form */}
             <div className="lg:col-span-5 w-full max-w-lg mx-auto lg:mx-0">
-              <LeadForm defaultService="web-dev" />
+              <LeadForm defaultService="web-maint-dev" />
             </div>
 
           </div>
@@ -147,7 +171,7 @@ export default function Home() {
               >
                 <div>
                   <div className="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-5 group-hover:bg-primary group-hover:text-white transition-colors duration-300">
-                    {service.icon === "Code" ? <Code size={22} /> : <TrendingUp size={22} />}
+                    {getServiceIcon(service.icon)}
                   </div>
                   <h4 className="text-lg font-bold text-foreground mb-3">{service.title}</h4>
                   <p className="text-xs sm:text-sm text-muted leading-relaxed mb-6">
@@ -592,7 +616,7 @@ export default function Home() {
             {/* Form Right */}
             <div className="lg:col-span-6 flex items-center">
               <div className="w-full bg-slate-50 dark:bg-slate-900 rounded-3xl p-1 border border-border/30">
-                <LeadForm defaultService="web-dev" />
+                <LeadForm defaultService="web-maint-dev" />
               </div>
             </div>
 
