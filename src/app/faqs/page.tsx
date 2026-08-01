@@ -15,8 +15,8 @@ export default function Faqs() {
     {
       id: "faq_1",
       category: "General",
-      q: "Who is Beyond The Timeline?",
-      a: "Beyond The Timeline is a premium digital development agency comprised of highly skilled student entrepreneurs from colleges in Andhra Pradesh, India (e.g. GMRIT, Vignan, Andhra University). We build clean, high-performance web products for local enterprises."
+      q: "Who is Beyond the Timeline?",
+      a: "Beyond the Timeline is a premium digital development agency comprised of highly skilled student entrepreneurs from colleges in Andhra Pradesh, India (e.g. GMRIT, Vignan, Andhra University). We build clean, high-performance web products for local enterprises."
     },
     {
       id: "faq_2",
@@ -39,7 +39,7 @@ export default function Faqs() {
     {
       id: "faq_5",
       category: "General",
-      q: "Where can we meet the Beyond The Timeline team in person?",
+      q: "Where can we meet the Beyond the Timeline team in person?",
       a: "We are physically based in the Vizag Tech Corridor and GMRIT campus area in Rajam. We can arrange face-to-face consults in Visakhapatnam, Rajam, and Kakinada, or collaborate via standard video meetings."
     },
     {

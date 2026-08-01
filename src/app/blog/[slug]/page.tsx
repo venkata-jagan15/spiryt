@@ -51,11 +51,11 @@ export default async function BlogPostPage({ params }: PageProps) {
     "datePublished": post.date,
     "author": {
       "@type": "Organization",
-      "name": "Beyond The Timeline Core Team"
+      "name": "Beyond the Timeline Core Team"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Beyond The Timeline",
+      "name": "Beyond the Timeline",
       "logo": {
         "@type": "ImageObject",
         "url": "https://beyondthetimeline.com/logo.png"

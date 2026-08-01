@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     "AI Solutions India",
     "SaaS Developers Andhra Pradesh"
   ],
-  authors: [{ name: "Beyond The Timeline Student Entrepreneurs" }],
-  creator: "Beyond The Timeline Team",
-  publisher: "Beyond The Timeline Team",
+  authors: [{ name: "Beyond the Timeline Student Entrepreneurs" }],
+  creator: "Beyond the Timeline Team",
+  publisher: "Beyond the Timeline Team",
   formatDetection: {
     email: false,
     address: false,

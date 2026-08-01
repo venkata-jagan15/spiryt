@@ -44,7 +44,7 @@ export default function About() {
             <span>Empowering Young Engineers</span>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4">
-            Meet the Student Minds Behind Beyond The Timeline
+            Meet the Student Minds Behind Beyond the Timeline
           </h1>
           <p className="text-sm sm:text-base text-muted leading-relaxed">
             We are a collaborative network of elite student entrepreneurs from Andhra Pradesh, India, 
@@ -62,14 +62,14 @@ export default function About() {
             <div className="p-8 sm:p-12 rounded-3xl bg-slate-50 dark:bg-slate-900 border border-border/50 flex flex-col justify-center gap-6 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-24 h-24 bg-accent/10 rounded-bl-full pointer-events-none"></div>
               
-              <span className="text-5xl sm:text-6xl font-black gradient-text">Beyond The Timeline</span>
+              <span className="text-5xl sm:text-6xl font-black gradient-text">Beyond the Timeline</span>
               <h3 className="text-xl sm:text-2xl font-bold text-foreground">
                 How We Started
               </h3>
               <p className="text-xs sm:text-sm text-muted leading-relaxed">
-                Beyond The Timeline began as a group of classmates doing freelance web assignments in college computer labs. 
+                Beyond the Timeline began as a group of classmates doing freelance web assignments in college computer labs. 
                 Recognizing the demand from local Vizag companies and AP startups for fast, responsive web systems that are 
-                actually structured to rank on Google, we established Beyond The Timeline.
+                actually structured to rank on Google, we established Beyond the Timeline.
               </p>
               <p className="text-xs sm:text-sm text-muted leading-relaxed">
                 Today, our agency connects top-ranking student developers and UI/UX designers, enabling small businesses in 
@@ -172,7 +172,7 @@ export default function About() {
             <div className="flex flex-col gap-2 max-w-xl">
               <h3 className="text-2xl font-bold text-foreground">Want to hire student web developers in India?</h3>
               <p className="text-xs sm:text-sm text-muted">
-                Contact Beyond The Timeline today. Get direct WhatsApp support, visual proposals and fair estimates tailored for startups.
+                Contact Beyond the Timeline today. Get direct WhatsApp support, visual proposals and fair estimates tailored for startups.
               </p>
             </div>
             <Link

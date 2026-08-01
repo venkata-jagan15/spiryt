@@ -42,7 +42,7 @@ export default function Footer() {
           {/* Agency Brief */}
           <div className="flex flex-col gap-4">
             <Link href="/" className="text-2xl font-bold tracking-tight text-foreground">
-              Spi<span className="text-primary">ryt</span>
+              Beyond<span className="text-primary">thetimeline</span>
             </Link>
             <p className="text-sm text-muted leading-relaxed">
               {AGENCY_CONFIG.description}
@@ -160,7 +160,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted">
-          <p>© {new Date().getFullYear()} Beyond The Timeline. All rights reserved. Built by Student Entrepreneurs from AP.</p>
+          <p>© {new Date().getFullYear()} Beyond the Timeline. All rights reserved. Built by Student Entrepreneurs from AP.</p>
           <div className="flex gap-4">
             <Link href="/admin" className="hover:text-primary font-semibold transition-colors">
               Admin Area Dashboard

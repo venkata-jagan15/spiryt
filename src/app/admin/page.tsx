@@ -111,7 +111,7 @@ export default function AdminDashboard() {
             <Shield size={20} />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-foreground">Beyond The Timeline Lead Console</h1>
+            <h1 className="text-xl font-bold text-foreground">Beyond the Timeline Lead Console</h1>
             <p className="text-xs text-muted">Student Agency Leads & Communications Database</p>
           </div>
         </div>

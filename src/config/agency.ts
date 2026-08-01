@@ -1,5 +1,5 @@
 export const AGENCY_CONFIG = {
-  name: "Beyond The Timeline",
+  name: "Beyond the Timeline",
   tagline: "Transforming Ideas into Digital Success",
   description: "A premium digital agency of talented student entrepreneurs from Andhra Pradesh, India. We build high-performance MERN stack websites, execute result-oriented SEO strategies, design exquisite UI/UX, and deploy cutting-edge AI solutions.",
   email: "hello@beyondthetimeline.com",

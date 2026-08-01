@@ -45,7 +45,7 @@ export default function Header() {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center gap-2 group">
               <span className="text-2xl font-bold tracking-tight text-foreground flex items-center">
-                Spi<span className="text-primary group-hover:text-accent transition-colors duration-300">ryt</span>
+                Beyond<span className="text-primary group-hover:text-accent transition-colors duration-300">thetimeline</span>
                 <span className="w-1.5 h-1.5 rounded-full bg-accent ml-0.5 animate-pulse"></span>
               </span>
             </Link>

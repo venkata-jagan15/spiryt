@@ -70,7 +70,7 @@ function ContactContent() {
         {/* Maps Container */}
         <div className="w-full h-64 rounded-3xl overflow-hidden border border-border/40 shadow-inner relative bg-slate-100">
           <iframe
-            title="Beyond The Timeline Visakhapatnam Hub Map"
+            title="Beyond the Timeline Visakhapatnam Hub Map"
             src={AGENCY_CONFIG.googleMapsEmbedUrl}
             width="100%"
             height="100%"

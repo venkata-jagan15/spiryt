@@ -92,7 +92,7 @@ export function WebMaintWidget() {
 
 // 2. AI & ML Development
 export function AiMlWidget() {
-  const [text, setText] = useState("I love Beyond The Timeline! Their student developers build high-performance React code.");
+  const [text, setText] = useState("I love Beyond the Timeline! Their student developers build high-performance React code.");
   const [result, setResult] = useState<{ sentiment: string; score: number; color: string } | null>(null);
 
   const analyzeSentiment = () => {
@@ -596,12 +596,12 @@ export function ResearchPaperWidget() {
 
   const getCitationOutput = () => {
     if (style === "IEEE") {
-      return `[1] S. Entrepreneurs, "Analyzing the impact of ${topic} in regional centers," Beyond The Timeline Journal of Engineering Technology, vol. 12, no. 3, pp. 142-156, July 2026.`;
+      return `[1] S. Entrepreneurs, "Analyzing the impact of ${topic} in regional centers," Beyond the Timeline Journal of Engineering Technology, vol. 12, no. 3, pp. 142-156, July 2026.`;
     }
     if (style === "APA") {
-      return `Entrepreneurs, S. (2026). Analyzing the impact of ${topic} in regional centers. Beyond The Timeline Journal of Engineering Technology, 12(3), 142-156.`;
+      return `Entrepreneurs, S. (2026). Analyzing the impact of ${topic} in regional centers. Beyond the Timeline Journal of Engineering Technology, 12(3), 142-156.`;
     }
-    return `Entrepreneurs, Student. "Analyzing the impact of ${topic} in regional centers." Beyond The Timeline Journal of Engineering Technology, vol. 12, no. 3, 2026, pp. 142-156.`;
+    return `Entrepreneurs, Student. "Analyzing the impact of ${topic} in regional centers." Beyond the Timeline Journal of Engineering Technology, vol. 12, no. 3, 2026, pp. 142-156.`;
   };
 
   return (
