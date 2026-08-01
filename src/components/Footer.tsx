@@ -14,7 +14,7 @@ export default function Footer() {
     if (!email) return;
 
     // Retrieve existing subscribers or initialize new list
-    const existing = localStorage.getItem("spiryt_subscribers");
+    const existing = localStorage.getItem("beyondthetimeline_subscribers");
     const list = existing ? JSON.parse(existing) : [];
     
     // Save to list
@@ -24,7 +24,7 @@ export default function Footer() {
     };
     
     list.push(newEntry);
-    localStorage.setItem("spiryt_subscribers", JSON.stringify(list));
+    localStorage.setItem("beyondthetimeline_subscribers", JSON.stringify(list));
     
     setSubscribed(true);
     setEmail("");
@@ -160,7 +160,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted">
-          <p>© {new Date().getFullYear()} Spiryt. All rights reserved. Built by Student Entrepreneurs from AP.</p>
+          <p>© {new Date().getFullYear()} Beyond The Timeline. All rights reserved. Built by Student Entrepreneurs from AP.</p>
           <div className="flex gap-4">
             <Link href="/admin" className="hover:text-primary font-semibold transition-colors">
               Admin Area Dashboard

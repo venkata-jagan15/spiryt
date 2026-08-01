@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/admin', '/admin/*'],
     },
-    sitemap: 'https://spiryt.com/sitemap.xml',
+    sitemap: 'https://beyondthetimeline.com/sitemap.xml',
   };
 }

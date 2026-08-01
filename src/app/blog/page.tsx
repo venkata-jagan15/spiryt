@@ -33,7 +33,7 @@ export default function Blog() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4">
-            Spiryt SEO & Tech Blog
+            Beyond The Timeline SEO & Tech Blog
           </h1>
           <p className="text-sm sm:text-base text-muted leading-relaxed">
             20 high-value articles written by our student core team targeting regional search queries in Andhra Pradesh. 

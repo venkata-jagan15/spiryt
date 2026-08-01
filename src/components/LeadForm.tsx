@@ -29,7 +29,7 @@ export default function LeadForm({ defaultService = "" }: { defaultService?: str
     // Simulate server request
     setTimeout(() => {
       // Save lead to local storage
-      const existing = localStorage.getItem("spiryt_leads");
+      const existing = localStorage.getItem("beyondthetimeline_leads");
       const leads = existing ? JSON.parse(existing) : [];
       
       const newLead = {
@@ -39,7 +39,7 @@ export default function LeadForm({ defaultService = "" }: { defaultService?: str
       };
       
       leads.push(newLead);
-      localStorage.setItem("spiryt_leads", JSON.stringify(leads));
+      localStorage.setItem("beyondthetimeline_leads", JSON.stringify(leads));
       
       setLoading(false);
       setSuccess(true);

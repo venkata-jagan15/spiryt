@@ -20,7 +20,7 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ["Business Growth", "Web Design", "Digital Identity"],
     date: "July 25, 2026",
     readTime: "5 min read",
-    author: "Spiryt Core Team",
+    author: "Beyond The Timeline Core Team",
     keywords: ["Website Development in Vizag", "Student Web Developers India"],
     content: `
 In 2026, having a business card and a physical office isn't enough to establish trust. Customers check Google before making any purchasing decisions. If your local store, restaurant, or startup in Andhra Pradesh doesn't show up on search engines, you are essentially giving away customers to your competitors.
@@ -37,7 +37,7 @@ For restaurant owners, relying solely on platforms like Zomato or Swiggy cuts yo
 ### 4. Drive Local Search Leads
 Using affordable SEO services in Andhra Pradesh, you can rank for highly targeted queries. When someone searches for your service in Vizag or Rajahmundry, a search-optimized website guarantees you appear in the top results, driving organic leads.
 
-**Need a fast, premium website for your brand? Contact Spiryt today for a free consultation!**
+**Need a fast, premium website for your brand? Contact Beyond The Timeline today for a free consultation!**
     `
   },
   {
@@ -74,7 +74,7 @@ Modern websites prioritize accessibility. Screen reader support, semantic HTML t
     tags: ["SEO", "Growth", "Marketing"],
     date: "July 22, 2026",
     readTime: "7 min read",
-    author: "SEO Lead, Spiryt",
+    author: "SEO Lead, Beyond The Timeline",
     keywords: ["Affordable SEO Services in Andhra Pradesh", "Website Developers in Rajam"],
     content: `
 Many small business owners in Andhra Pradesh believe they cannot compete with big corporations for Google searches. However, search engine optimization (SEO) has a unique leveling effect, especially in regional markets like Visakhapatnam, Kakinada, and Vijayawada.
@@ -87,7 +87,7 @@ Local SEO focuses on ranking for searches with geographical intent, such as "bes
 2. **High-Intent Leads:** People searching for specific local services have high buying intent. Catching them on Google at the right time leads to instant sales.
 3. **Regional SEO Advantage:** Keywords like *Affordable SEO Services in Andhra Pradesh* or *Website Developers in Rajam* have relatively low competition. Ranking for these search terms requires proper structuring and high loading speed, not multi-million budgets.
 
-**Learn how Spiryt can optimize your site to capture organic search leads in AP.**
+**Learn how Beyond The Timeline can optimize your site to capture organic search leads in AP.**
     `
   },
   {
@@ -98,7 +98,7 @@ Local SEO focuses on ranking for searches with geographical intent, such as "bes
     tags: ["Pricing", "Guides", "Startups"],
     date: "July 20, 2026",
     readTime: "5 min read",
-    author: "Financial Officer, Spiryt",
+    author: "Financial Officer, Beyond The Timeline",
     keywords: ["Affordable SEO Services in Andhra Pradesh", "Student Web Developers India"],
     content: `
 How much does it cost to build a website in India? The answer depends entirely on your project's scope, technology, and partner choice. Here is an honest breakdown of standard rates in 2026.
@@ -115,7 +115,7 @@ How much does it cost to build a website in India? The answer depends entirely o
 ### 3. E-Commerce Platforms
 An e-commerce site with Razorpay integration and inventory management dashboards usually ranges between ₹25,000 and ₹75,000.
 
-**Spiryt is a student-led team, meaning we deliver high-end enterprise code at rates designed to fit local startup budgets in Andhra Pradesh.**
+**Beyond The Timeline is a student-led team, meaning we deliver high-end enterprise code at rates designed to fit local startup budgets in Andhra Pradesh.**
     `
   },
   {
@@ -175,7 +175,7 @@ A beautiful website is useless if no one finds it. Make sure your Vizag develope
     tags: ["Rajam", "Web Development", "Students"],
     date: "July 13, 2026",
     readTime: "4 min read",
-    author: "Founder, Spiryt",
+    author: "Founder, Beyond The Timeline",
     keywords: ["Website Developers in Rajam", "Student Web Developers India"],
     content: `
 Rajam is growing rapidly, with educational hubs producing top-tier engineering talent. If you are a business owner looking for Website Developers in Rajam, you don't need to look at Bangalore or Hyderabad anymore.
@@ -185,7 +185,7 @@ Rajam is growing rapidly, with educational hubs producing top-tier engineering t
 2. **Direct Communication:** Regular meetups make collaboration easy.
 3. **Cost Savings:** By hiring student entrepreneurs, startups secure premium, production-ready websites without heavy agency margins.
 
-**Spiryt operates directly in the Rajam-Vizag corridor, bringing fresh academic knowledge straight to your commercial project.**
+**Beyond The Timeline operates directly in the Rajam-Vizag corridor, bringing fresh academic knowledge straight to your commercial project.**
     `
   },
   {
@@ -196,7 +196,7 @@ Rajam is growing rapidly, with educational hubs producing top-tier engineering t
     tags: ["SEO", "AP Startups", "Marketing"],
     date: "July 10, 2026",
     readTime: "6 min read",
-    author: "SEO Lead, Spiryt",
+    author: "SEO Lead, Beyond The Timeline",
     keywords: ["Affordable SEO Services in Andhra Pradesh", "Website Developers in Rajam"],
     content: `
 Startups in Andhra Pradesh face unique challenges: tight initial budgets, establishing local awareness, and competing with national platforms. This is why affordable SEO services in Andhra Pradesh are the ultimate growth engine.
@@ -217,7 +217,7 @@ Users naturally trust organic Google search results over sponsored advertisement
     tags: ["Student Developers", "Freelancing", "Work Culture"],
     date: "July 08, 2026",
     readTime: "5 min read",
-    author: "Spiryt Core Team",
+    author: "Beyond The Timeline Core Team",
     keywords: ["Student Web Developers India", "MERN Stack Developers Vizag"],
     content: `
 Hiring student web developers in India has become incredibly popular among small businesses and startups. Let's analyze the advantages and challenges honestly.
@@ -230,7 +230,7 @@ Hiring student web developers in India has become incredibly popular among small
 ### The Cons:
 * **Availability:** Exam schedules can impact timelines if not managed correctly.
 
-*At Spiryt, we solve this availability constraint by forming a collaborative team of student developers, ensuring constant coverage and timely delivery.*
+*At Beyond The Timeline, we solve this availability constraint by forming a collaborative team of student developers, ensuring constant coverage and timely delivery.*
     `
   },
   {
@@ -264,7 +264,7 @@ MongoDB stores records as JSON documents. This flexibility allows businesses to 
     tags: ["Local SEO", "Vizag Retail", "Guides"],
     date: "July 02, 2026",
     readTime: "5 min read",
-    author: "SEO Lead, Spiryt",
+    author: "SEO Lead, Beyond The Timeline",
     keywords: ["Affordable SEO Services in Andhra Pradesh", "Website Development in Vizag"],
     content: `
 If you run a boutique, cafe, clinic, or service center in Visakhapatnam, local SEO is your primary source of inbound walk-ins. Here is your checklist:
@@ -282,7 +282,7 @@ If you run a boutique, cafe, clinic, or service center in Visakhapatnam, local S
     tags: ["Colleges", "Jamstack", "Tech Insights"],
     date: "June 29, 2026",
     readTime: "4 min read",
-    author: "Spiryt Core Team",
+    author: "Beyond The Timeline Core Team",
     keywords: ["Website Developers in Rajam", "Student Web Developers India"],
     content: `
 College portals in Andhra Pradesh often suffer from slow speeds and crashes when exam results or circulars are released. Upgrading to static site architecture solves this problem permanently.
@@ -335,7 +335,7 @@ Having a PDF menu on Facebook or WhatsApp is frustrating for users. A fully resp
     author: "Technical Consultant",
     keywords: ["Student Web Developers India", "MERN Stack Developers Vizag"],
     content: `
-Google's Core Web Vitals directly impact search rankings. Here is how Spiryt optimizes Next.js apps for sub-second responses:
+Google's Core Web Vitals directly impact search rankings. Here is how Beyond The Timeline optimizes Next.js apps for sub-second responses:
 
 * **Next/Image:** Never use raw \`<img>\` tags. The Next.js image component automatically converts media to WebP formats and sizes them dynamically.
 * **Font Optimization:** Load Google Fonts using \`next/font/google\` to bundle them locally and prevent layout shifts (CLS).
@@ -349,7 +349,7 @@ Google's Core Web Vitals directly impact search rankings. Here is how Spiryt opt
     tags: ["AI Chatbots", "Business Automation", "Vizag"],
     date: "June 14, 2026",
     readTime: "5 min read",
-    author: "AI Lead, Spiryt",
+    author: "AI Lead, Beyond The Timeline",
     keywords: ["MERN Stack Developers Vizag", "Website Developers in Rajam"],
     content: `
 Integrating a simple, intelligent AI assistant can save hours of manual typing. It greets visitors, answers questions about your location, services, and forwards hot lead details directly to your email or WhatsApp dashboard.
@@ -363,7 +363,7 @@ Integrating a simple, intelligent AI assistant can save hours of manual typing. 
     tags: ["Accessibility", "Education", "AP Colleges"],
     date: "June 10, 2026",
     readTime: "5 min read",
-    author: "Spiryt Core Team",
+    author: "Beyond The Timeline Core Team",
     keywords: ["Website Developers in Rajam", "Student Web Developers India"],
     content: `
 Educational institutions have a responsibility to serve all students. An accessible college website ensures students with visual or motor challenges can easily download brochures, view results, and review notices.
@@ -377,7 +377,7 @@ Educational institutions have a responsibility to serve all students. An accessi
     tags: ["Vercel", "Cloud Deployment", "Next.js"],
     date: "June 05, 2026",
     readTime: "4 min read",
-    author: "Spiryt Core Team",
+    author: "Beyond The Timeline Core Team",
     keywords: ["Student Web Developers India", "Affordable SEO Services in Andhra Pradesh"],
     content: `
 We host our Next.js applications on Vercel. Their Edge Network caches your website contents in Indian data centers (Mumbai, Bangalore), delivering near-instant load times for regional visitors in AP.
@@ -405,7 +405,7 @@ An outdated website hurts your conversions. Modernizing with interactive layouts
     tags: ["Maintenance", "Performance", "Security"],
     date: "May 28, 2026",
     readTime: "5 min read",
-    author: "Spiryt Core Team",
+    author: "Beyond The Timeline Core Team",
     keywords: ["Affordable SEO Services in Andhra Pradesh", "MERN Stack Developers Vizag"],
     content: `
 Regular maintenance prevents security vulnerabilities and database bloat. Keep packages updated, check for broken URLs, optimize images, and run regular database backups to ensure absolute uptime.

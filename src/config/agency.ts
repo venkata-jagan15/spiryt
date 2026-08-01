@@ -1,18 +1,18 @@
 export const AGENCY_CONFIG = {
-  name: "Spiryt",
+  name: "Beyond The Timeline",
   tagline: "Transforming Ideas into Digital Success",
   description: "A premium digital agency of talented student entrepreneurs from Andhra Pradesh, India. We build high-performance MERN stack websites, execute result-oriented SEO strategies, design exquisite UI/UX, and deploy cutting-edge AI solutions.",
-  email: "hello@spiryt.com",
+  email: "hello@beyondthetimeline.com",
   phone: "+91 89786 54321", // Representative AP contact
   whatsapp: "918978654321", // Without + or spaces for api.whatsapp.com
   address: "Vizag Tech Corridor & GMRIT Campus, Rajam, Andhra Pradesh, India",
   googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121058.91976077366!2d83.3323067812906!3d17.73812700305886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9d20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1716768000000!5m2!1sen!2sin",
   
   socials: {
-    linkedin: "https://linkedin.com/company/spiryt",
-    github: "https://github.com/spiryt",
-    twitter: "https://twitter.com/spiryt",
-    instagram: "https://instagram.com/spiryt",
+    linkedin: "https://linkedin.com/company/beyondthetimeline",
+    github: "https://github.com/beyondthetimeline",
+    twitter: "https://twitter.com/beyondthetimeline",
+    instagram: "https://instagram.com/beyondthetimeline",
   },
   
   stats: [

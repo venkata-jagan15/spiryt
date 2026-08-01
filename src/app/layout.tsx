@@ -22,7 +22,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://spiryt.com"),
+  metadataBase: new URL("https://beyondthetimeline.com"),
   title: {
     default: `${AGENCY_CONFIG.name} | ${AGENCY_CONFIG.tagline}`,
     template: `%s | ${AGENCY_CONFIG.name}`,
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     "AI Solutions India",
     "SaaS Developers Andhra Pradesh"
   ],
-  authors: [{ name: "Spiryt Student Entrepreneurs" }],
-  creator: "Spiryt Team",
-  publisher: "Spiryt Team",
+  authors: [{ name: "Beyond The Timeline Student Entrepreneurs" }],
+  creator: "Beyond The Timeline Team",
+  publisher: "Beyond The Timeline Team",
   formatDetection: {
     email: false,
     address: false,
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${AGENCY_CONFIG.name} | ${AGENCY_CONFIG.tagline}`,
     description: AGENCY_CONFIG.description,
-    url: "https://spiryt.com",
+    url: "https://beyondthetimeline.com",
     siteName: AGENCY_CONFIG.name,
     locale: "en_IN",
     type: "website",
@@ -87,8 +87,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": AGENCY_CONFIG.name,
-    "url": "https://spiryt.com",
-    "logo": "https://spiryt.com/logo.png",
+    "url": "https://beyondthetimeline.com",
+    "logo": "https://beyondthetimeline.com/logo.png",
     "description": AGENCY_CONFIG.description,
     "telephone": AGENCY_CONFIG.phone,
     "email": AGENCY_CONFIG.email,

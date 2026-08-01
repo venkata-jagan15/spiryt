@@ -21,7 +21,7 @@ export default function FloatingActions() {
     setMessages([
       {
         sender: "bot",
-        text: "Hi there! I am SpirytBot, your Spiryt virtual assistant. How can we help you today?",
+        text: "Hi there! I am BeyondBot, your Beyond The Timeline virtual assistant. How can we help you today?",
         time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       },
     ]);
@@ -35,7 +35,7 @@ export default function FloatingActions() {
   }, [messages]);
 
   const whatsappMessage = encodeURIComponent(
-    `Hello Spiryt! I visited your website and would like to get a free consultation for our project.`
+    `Hello Beyond The Timeline! I visited your website and would like to get a free consultation for our project.`
   );
   
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${AGENCY_CONFIG.whatsapp}&text=${whatsappMessage}`;
@@ -53,7 +53,7 @@ export default function FloatingActions() {
       if (text.includes("Service Pricing")) {
         replyText = "Our packages start as low as ₹8,000 for standard websites and ₹25,000 for full-fledged MERN stack apps. Let's schedule a call to get you a custom quote!";
       } else if (text.includes("Web Developers in Vizag")) {
-        replyText = "Spiryt has MERN Stack developers based directly in Vizag and Rajam! We can build premium Next.js solutions or schedule an in-person meeting.";
+        replyText = "Beyond The Timeline has MERN Stack developers based directly in Vizag and Rajam! We can build premium Next.js solutions or schedule an in-person meeting.";
       } else {
         replyText = "Absolutely! Our student team specializes in custom web development, SEO and AI integrations. What business are you running?";
       }
@@ -103,12 +103,12 @@ export default function FloatingActions() {
             <div className="flex items-center gap-2.5">
               <div className="relative">
                 <div className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center font-bold text-sm">
-                  S
+                  B
                 </div>
                 <span className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-emerald-400 border-2 border-primary rounded-full"></span>
               </div>
               <div>
-                <h4 className="font-semibold text-sm leading-tight">Spiryt Live Help</h4>
+                <h4 className="font-semibold text-sm leading-tight">Beyond The Timeline Live Help</h4>
                 <p className="text-[10px] text-white/80">Active now • Student Entrepreneurs</p>
               </div>
             </div>

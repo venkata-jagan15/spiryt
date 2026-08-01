@@ -20,7 +20,7 @@ export default function CaseStudies() {
             Detailed Customer Case Studies
           </h1>
           <p className="text-sm sm:text-base text-muted leading-relaxed">
-            Read how Spiryt resolves complex operations, implements e-commerce checkouts, 
+            Read how Beyond The Timeline resolves complex operations, implements e-commerce checkouts, 
             builds high-volume academic nodes, and elevates local visibility across Andhra Pradesh.
           </p>
         </div>

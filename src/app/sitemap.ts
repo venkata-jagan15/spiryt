@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { BLOG_POSTS } from '@/data/blogData';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://spiryt.com';
+  const baseUrl = 'https://beyondthetimeline.com';
 
   const coreRoutes = [
     '',

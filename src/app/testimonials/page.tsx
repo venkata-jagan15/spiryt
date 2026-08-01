@@ -11,7 +11,7 @@ export default function Testimonials() {
 
   const reviews = [
     {
-      text: "The student team at Spiryt delivered a stellar website for our restaurant. Our reservations grew by 42%, and we rank #1 in local searches in Vizag! Highly professional and cost-effective.",
+      text: "The student team at Beyond The Timeline delivered a stellar website for our restaurant. Our reservations grew by 42%, and we rank #1 in local searches in Vizag! Highly professional and cost-effective.",
       author: "M. Jagannadha Rao",
       role: "General Manager",
       company: "Spice Garden Culinary",
@@ -19,7 +19,7 @@ export default function Testimonials() {
       rating: 5
     },
     {
-      text: "We needed a student portal directory for Apex Engineering College. Spiryt's Next.js portal is robust, fully accessible, and handled peak exam results day without a single crash.",
+      text: "We needed a student portal directory for Apex Engineering College. Beyond The Timeline's Next.js portal is robust, fully accessible, and handled peak exam results day without a single crash.",
       author: "Dr. K. Somasekhar",
       role: "Principal",
       company: "Apex Institute",
@@ -35,7 +35,7 @@ export default function Testimonials() {
       rating: 5
     },
     {
-      text: "We hired Spiryt to build an e-commerce platform for our local electronics boutique. Excellent support, great communication on WhatsApp, and very clean code structure.",
+      text: "We hired Beyond The Timeline to build an e-commerce platform for our local electronics boutique. Excellent support, great communication on WhatsApp, and very clean code structure.",
       author: "T. Srinivasa Rao",
       role: "Owner",
       company: "Rao Electronics",
@@ -51,7 +51,7 @@ export default function Testimonials() {
       rating: 5
     },
     {
-      text: "Spiryt handled our wedding and corporate event portal. The multi-step cost calculator widget has increased inbound bookings by 75%. Outstanding performance.",
+      text: "Beyond The Timeline handled our wedding and corporate event portal. The multi-step cost calculator widget has increased inbound bookings by 75%. Outstanding performance.",
       author: "K. Anuradha",
       role: "Creative Director",
       company: "Utsav Celebrations",
@@ -75,7 +75,7 @@ export default function Testimonials() {
           </h1>
           <p className="text-sm sm:text-base text-muted leading-relaxed">
             See how small businesses, clinics, colleges, and startups in Andhra Pradesh grow their lead conversion metrics 
-            using Spiryt. Filter reviews by regional centers.
+            using Beyond The Timeline. Filter reviews by regional centers.
           </p>
         </div>
       </section>

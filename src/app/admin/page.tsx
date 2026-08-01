@@ -30,8 +30,8 @@ export default function AdminDashboard() {
   }, []);
 
   const loadData = () => {
-    const localLeads = localStorage.getItem("spiryt_leads");
-    const localSubscribers = localStorage.getItem("spiryt_subscribers");
+    const localLeads = localStorage.getItem("beyondthetimeline_leads");
+    const localSubscribers = localStorage.getItem("beyondthetimeline_subscribers");
 
     if (localLeads) setLeads(JSON.parse(localLeads));
     if (localSubscribers) setSubscribers(JSON.parse(localSubscribers));
@@ -39,8 +39,8 @@ export default function AdminDashboard() {
 
   const handleClearAll = () => {
     if (window.confirm("Are you sure you want to clear all dashboard data?")) {
-      localStorage.removeItem("spiryt_leads");
-      localStorage.removeItem("spiryt_subscribers");
+      localStorage.removeItem("beyondthetimeline_leads");
+      localStorage.removeItem("beyondthetimeline_subscribers");
       setLeads([]);
       setSubscribers([]);
     }
@@ -49,7 +49,7 @@ export default function AdminDashboard() {
   const handleDeleteLead = (id: string) => {
     const updated = leads.filter((l) => l.id !== id);
     setLeads(updated);
-    localStorage.setItem("spiryt_leads", JSON.stringify(updated));
+    localStorage.setItem("beyondthetimeline_leads", JSON.stringify(updated));
   };
 
   const handleLoadMock = () => {
@@ -81,8 +81,8 @@ export default function AdminDashboard() {
       { email: "subscriber2@yahoo.co.in", date: new Date(Date.now() - 3600000 * 48).toLocaleString() }
     ];
 
-    localStorage.setItem("spiryt_leads", JSON.stringify(mockLeads));
-    localStorage.setItem("spiryt_subscribers", JSON.stringify(mockSubs));
+    localStorage.setItem("beyondthetimeline_leads", JSON.stringify(mockLeads));
+    localStorage.setItem("beyondthetimeline_subscribers", JSON.stringify(mockSubs));
     
     setLeads(mockLeads);
     setSubscribers(mockSubs);
@@ -111,7 +111,7 @@ export default function AdminDashboard() {
             <Shield size={20} />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-foreground">Spiryt Lead Console</h1>
+            <h1 className="text-xl font-bold text-foreground">Beyond The Timeline Lead Console</h1>
             <p className="text-xs text-muted">Student Agency Leads & Communications Database</p>
           </div>
         </div>

@@ -57,10 +57,10 @@ export default function Home() {
   const homeFaqs = [
     {
       q: "Why should we hire student web developers in India?",
-      a: "Hiring student developers from Spiryt gives you access to top-tier technical minds specializing in the latest frameworks (Next.js, Node.js, Tailwind v4) at highly competitive prices. We work under professional project structures, delivering clean, production-ready code with flexible budgets suitable for startups and local businesses."
+      a: "Hiring student developers from Beyond The Timeline gives you access to top-tier technical minds specializing in the latest frameworks (Next.js, Node.js, Tailwind v4) at highly competitive prices. We work under professional project structures, delivering clean, production-ready code with flexible budgets suitable for startups and local businesses."
     },
     {
-      q: "Where is Spiryt located in Andhra Pradesh?",
+      q: "Where is Beyond The Timeline located in Andhra Pradesh?",
       a: "Our core team operates in the Vizag Tech Corridor and GMRIT campus, Rajam, Andhra Pradesh. We offer face-to-face consultancies in Visakhapatnam and surrounding areas, while collaborating remotely with clients nationwide."
     },
     {
@@ -106,7 +106,7 @@ export default function Home() {
               
               {/* Description */}
               <p className="text-base sm:text-lg text-muted max-w-xl leading-relaxed">
-                Spiryt is a premium agency of student entrepreneurs from Andhra Pradesh, India. 
+                Beyond The Timeline is a premium agency of student entrepreneurs from Andhra Pradesh, India. 
                 We craft high-performance websites, deliver affordable SEO services, and build MERN stack systems 
                 tailored for local startups and global brands.
               </p>
@@ -386,14 +386,14 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                text: "The student team at Spiryt delivered a stellar website for our restaurant. Our reservations grew by 42%, and we rank #1 in local searches in Vizag! Highly professional and cost-effective.",
+                text: "The student team at Beyond The Timeline delivered a stellar website for our restaurant. Our reservations grew by 42%, and we rank #1 in local searches in Vizag! Highly professional and cost-effective.",
                 author: "M. Jagannadha Rao",
                 role: "General Manager, Spice Garden",
                 loc: "Visakhapatnam, AP",
                 rating: 5
               },
               {
-                text: "We needed a student portal directory for Apex Engineering College. Spiryt's Next.js portal is robust, fully accessible, and handled peak exam results day without a single crash.",
+                text: "We needed a student portal directory for Apex Engineering College. Beyond The Timeline's Next.js portal is robust, fully accessible, and handled peak exam results day without a single crash.",
                 author: "Dr. K. Somasekhar",
                 role: "Principal, Apex Institute",
                 loc: "Rajam, AP",
@@ -599,7 +599,7 @@ export default function Home() {
               {/* Map Preview */}
               <div className="w-full h-64 rounded-3xl overflow-hidden border border-border/40 shadow-inner relative bg-slate-100">
                 <iframe
-                  title="Spiryt Visakhapatnam Location Map"
+                  title="Beyond The Timeline Visakhapatnam Location Map"
                   src={AGENCY_CONFIG.googleMapsEmbedUrl}
                   width="100%"
                   height="100%"

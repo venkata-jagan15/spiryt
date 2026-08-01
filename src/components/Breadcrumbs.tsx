@@ -19,7 +19,7 @@ export default function Breadcrumbs() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://spiryt.com"
+        "item": "https://beyondthetimeline.com"
       },
       ...paths.map((path, index) => {
         const url = `/${paths.slice(0, index + 1).join("/")}`;
@@ -30,7 +30,7 @@ export default function Breadcrumbs() {
           "@type": "ListItem",
           "position": index + 2,
           "name": name,
-          "item": `https://spiryt.com${url}`
+          "item": `https://beyondthetimeline.com${url}`
         };
       })
     ]

@@ -51,19 +51,19 @@ export default async function BlogPostPage({ params }: PageProps) {
     "datePublished": post.date,
     "author": {
       "@type": "Organization",
-      "name": "Spiryt Core Team"
+      "name": "Beyond The Timeline Core Team"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Spiryt",
+      "name": "Beyond The Timeline",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://spiryt.com/logo.png"
+        "url": "https://beyondthetimeline.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://spiryt.com/blog/${post.slug}`
+      "@id": `https://beyondthetimeline.com/blog/${post.slug}`
     }
   };
 
